@@ -166,7 +166,7 @@ class _MyHomePageState extends State<MyHomePage> with WindowListener {
   Future<void> initSystemTray() async {
     try {
       String path =
-      Platform.isWindows ? 'assets/app_icon.ico' : 'assets/openshift-icon.png';
+      Platform.isWindows ? 'assets/openshift-icon.ico' : 'assets/openshift-icon.png';
 
       final menu = [
         MenuItem(label: 'Show', onClicked: _appWindow.show),
